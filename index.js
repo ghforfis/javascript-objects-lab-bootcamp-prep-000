@@ -4,4 +4,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-function 
+function deleteFromObjectByKey(object, key) {
+  
+}
