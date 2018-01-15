@@ -9,5 +9,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
     prop: 1,
     [key]: value
   };
-  return object;
+  return recipes;
 }
