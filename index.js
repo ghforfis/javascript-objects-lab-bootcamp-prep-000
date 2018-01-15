@@ -15,7 +15,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
       
-  console.log (object.key = value;)
+  object.key = value;
 
 }
 
