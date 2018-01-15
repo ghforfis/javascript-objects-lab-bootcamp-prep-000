@@ -14,11 +14,11 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object = {
+  obj = {
     prop: 1,
     [key]: value
   }
-  return object
+  return obj
 }
 
 
