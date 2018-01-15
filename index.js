@@ -10,6 +10,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
         prop: 1,
         prop2: 2
       };
+  obj
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
