@@ -4,10 +4,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object = {
-    prop: 1,
-    [key]: value
-  };
-  return [prop, key];
-}
+function 
