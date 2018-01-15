@@ -4,7 +4,3 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-function deleteFromObjectByKey(object, key) {
-  var object = Object.assign({}, {});
-  delete [key];
-}
