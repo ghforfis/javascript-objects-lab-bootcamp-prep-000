@@ -13,13 +13,9 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   return obj
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
       var obj = { prop: 1 }
 
-      expect(destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)).toMatch({
-        prop: 1,
-        prop2: 2
-      })
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key){
