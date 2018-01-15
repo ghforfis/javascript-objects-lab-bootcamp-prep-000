@@ -13,7 +13,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   return obj
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
       var obj = { prop: 1 }
 
       expect(destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)).toMatch({
