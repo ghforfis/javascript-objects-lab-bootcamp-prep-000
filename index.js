@@ -32,10 +32,9 @@ function deleteFromObjectByKey(obj, key){
  
 var newObj = Object.assign({}, obj)
  
-newObj 
  
 delete newObj.key
  
-newObj
+return newObj
 }
 
