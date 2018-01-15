@@ -13,11 +13,6 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   return obj
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  var obj = { prop: 1 }
-  var object = Object.assign(obj, {prop2: 2});
-  return object
-}
 
 
 function destructivelyDeleteFromObjectByKey(obj, key){
