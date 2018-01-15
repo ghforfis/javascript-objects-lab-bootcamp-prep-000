@@ -4,7 +4,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-const recipes;
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object.key = value;
   
