@@ -5,6 +5,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function updateObjectWithKeyAndValue(obj, key, value) {
+  var obj = { prop: 1 }
   obj = {
         prop: 1,
         prop2: 2
