@@ -9,6 +9,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
     prop: 1,
     [key]: value
   };
-  return prop;
-  
+  return [prop, key];
 }
