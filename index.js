@@ -3,6 +3,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
   recipes.prop2 = 2;
   return recipes;
 }
+
+const recipes;
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object.key = value;
   
