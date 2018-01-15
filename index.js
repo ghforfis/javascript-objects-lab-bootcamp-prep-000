@@ -4,3 +4,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  
+}
